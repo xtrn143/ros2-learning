@@ -1,0 +1,15 @@
+{
+  "name": "ROS2 Jazzy",
+  "image": "ros:jazzy",
+  "features": {},
+  "postCreateCommand": "apt update && apt install -y ros-jazzy-rosidl && echo 'source /opt/ros/jazzy/setup.bash' >> ~/.bashrc",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.python",
+        "ros-robotics.vscode-ros"
+      ]
+    }
+  }
+}
