@@ -1,8 +1,8 @@
 {
-  "name": "ROS2 Jazzy",
-  "image": "ros:jazzy",
+  "name": "ROS2 Humble",
+  "image": "ros:humble",
   "features": {},
-  "postCreateCommand": "apt update && apt install -y ros-jazzy-rosidl && echo 'source /opt/ros/jazzy/setup.bash' >> ~/.bashrc",
+  "postCreateCommand": "apt update && apt install -y ros-humble-rosidl && echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc",
   "customizations": {
     "vscode": {
       "extensions": [
