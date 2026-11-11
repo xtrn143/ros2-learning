@@ -1,0 +1,4 @@
+param_demo_node:
+  ros__parameters:
+    robot_name: "yaml_robot"
+    control_frequency: 12.5
