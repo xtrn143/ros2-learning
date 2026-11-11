@@ -1,0 +1,10 @@
+dev_ws/build/
+dev_ws/install/
+dev_ws/log/
+dev_ws/.ros/
+build/
+install/
+log/
+.ros/
+__pycache__/
+*.pyc
